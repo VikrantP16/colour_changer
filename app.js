@@ -1,11 +1,3 @@
-const buttons = document.querySelectorAll('.button');
-const body = document.querySelector('body');
-
-buttons.forEach(function (button) {
-    console.log(button);
-    button.addEventListener('click', function(e){
-        console.log(e)
-        console.log(e.target)
-
-    })
-});
+const nums = [1,2,3,5,4,7]
+const foundNum = nums.find((num)=> num>3);
+console.log(foundNum);
